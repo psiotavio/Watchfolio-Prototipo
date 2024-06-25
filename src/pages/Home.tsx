@@ -16,6 +16,7 @@ import home from "../assets/printsWatchfolioPrototipo/home.webp";
 import recomenda from "../assets/printsWatchfolioPrototipo/recomenda.webp";
 import filtro2 from "../assets/printsWatchfolioPrototipo/filtro2.webp";
 import perfil from "../assets/printsWatchfolioPrototipo/perfil.webp";
+import MultiCardCarousel from "../components/muticards/multicards.tsx";
 
 function Home() {
   return (
@@ -151,6 +152,10 @@ function Home() {
                 </p>
               </div>
             </div>
+
+
+            <h1 style={{marginTop: '2rem'}}>TODAS AS TELAS DO PROTÓTIPO MOBILE</h1>
+            <MultiCardCarousel />
           </div>
         </div>
       </div>
