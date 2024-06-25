@@ -1,6 +1,9 @@
 import React from "react";
 import "./css/sobre.css";
 
+import video1 from "../videos/user1.mp4"
+import video2 from "../videos/user2.mp4"
+
 const Sobre = () => {
   return (
     <body>
@@ -99,6 +102,21 @@ const Sobre = () => {
     romance, para proporcionar uma experiência de descoberta mais enriquecedora e
     emocionante aos usuários do Watchfolio.
   </p>
+
+
+  <h1 style={{margin: 'auto', textAlign:'center', paddingBottom: 10}}>Usuários testando o protótipo</h1>
+
+<div style={{display: 'flex' , flexDirection:'row', gap: 20}}>
+  <video width="320" height="240" controls>
+    <source src={video1} type="video/mp4" />
+  </video>
+
+  <video width="320" height="240" controls>
+    <source src={video2} type="video/mp4" />
+  </video>
+
+  </div>
+
 </div>
 
         </div>
