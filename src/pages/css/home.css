@@ -1,21 +1,76 @@
+.header-M14 {
+    flex-direction: row;
+    gap: 35px;
+    justify-content: center;
+    display: flex;
+}
 
-.web-title{
+.content {
+    width: 90%;
+    margin: auto;
+    padding: 2% 10% 2% 10%;
+}
+
+
+.web-title {
     display: none;
 }
 
-.home-image-print{
+.home-image-print {
     height: 550px;
 }
 
+
+
 @media screen and (max-width: 768px) {
- 
+
     .web-title {
-        display: block; /* A menos que você queira inline ou outro tipo de display */
+        display: block;
+        /* A menos que você queira inline ou outro tipo de display */
         font-size: 55px;
         position: absolute;
-        top: 25rem; /* Posição vertical que você gostou */
-        left: 50%; /* Centraliza horizontalmente: ponto de ancoragem ao meio */
-        transform: translateX(-50%); /* Desloca para a esquerda metade da largura do elemento */
+        top: 25rem;
+        /* Posição vertical que você gostou */
+        left: 50%;
+        /* Centraliza horizontalmente: ponto de ancoragem ao meio */
+        transform: translateX(-50%);
+        /* Desloca para a esquerda metade da largura do elemento */
     }
-    
+
+}
+
+
+
+/* PRINTS */
+
+.prints {
+    width: 320px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px, rgba(0, 0, 0, 0.5) 0px -12px 30px, rgba(0, 0, 0, 0.5) 0px 4px 6px, rgba(0, 0, 0, 0.5) 0px 12px 13px, rgba(0, 0, 0, 0.5) 0px -3px 5px;
+}
+
+.div-section-prototype {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.div-section-prototype-alternative {
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 50px;
+}
+
+.div-container-section-prototype {
+    width: 50%;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
 }
